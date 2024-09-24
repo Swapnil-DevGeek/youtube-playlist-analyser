@@ -181,7 +181,7 @@ export default function Home() {
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-semibold mb-4">No Playlist Data Yet</h3>
               <p className="text-gray-300 mb-6">
-                Enter a YouTube playlist URL above and click "Analyze Playlist" to see insights about the videos.
+                Enter a YouTube playlist URL above and click &quot; Analyze Playlist &quot; to see insights about the videos.
               </p>
               <div className="flex justify-center">
                 <Button
