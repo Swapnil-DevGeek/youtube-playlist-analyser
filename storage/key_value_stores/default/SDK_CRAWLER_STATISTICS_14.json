@@ -1,0 +1,52 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 32037,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2024-09-24T15:21:26.385Z",
+  "crawlerFinishedAt": "2024-09-24T15:23:35.102Z",
+  "statsPersistedAt": "2024-09-24T15:23:35.103Z",
+  "crawlerRuntimeMillis": 129920,
+  "crawlerLastStartTimestamp": 1727191285183,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 14,
+  "requestAvgFailedDurationMillis": 32037,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 32037,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {
+    "404": 4
+  },
+  "errors": {
+    "rsc": {
+      "missing error code": {
+        "TimeoutError": {
+          "page.waitForSelector: Timeout 30000ms exceeded.": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "rsc": {
+      "missing error code": {
+        "TimeoutError": {
+          "page.waitForSelector: Timeout 30000ms exceeded.": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}

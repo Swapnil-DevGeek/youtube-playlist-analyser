@@ -1,29 +1,52 @@
 {
-  "requestsFinished": 1,
-  "requestsFailed": 0,
-  "requestsRetries": 0,
-  "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 6,
-  "requestMinDurationMillis": 9654,
-  "requestMaxDurationMillis": 9654,
-  "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 9654,
-  "crawlerStartedAt": "2024-09-22T09:55:47.114Z",
-  "crawlerFinishedAt": "2024-09-22T09:55:56.898Z",
-  "statsPersistedAt": "2024-09-22T09:55:56.898Z",
-  "crawlerRuntimeMillis": 9961,
-  "crawlerLastStartTimestamp": 1726998946937,
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 1,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 8893,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2024-09-24T14:26:21.922Z",
+  "crawlerFinishedAt": "2024-09-24T14:26:57.882Z",
+  "statsPersistedAt": "2024-09-24T14:26:57.882Z",
+  "crawlerRuntimeMillis": 36418,
+  "crawlerLastStartTimestamp": 1727187981464,
   "requestRetryHistogram": [
+    null,
+    null,
+    null,
     1
   ],
   "statsId": 0,
-  "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 9654,
-  "requestTotalDurationMillis": 9654,
+  "requestAvgFailedDurationMillis": 8893,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 8893,
   "requestsTotal": 1,
   "requestsWithStatusCode": {
-    "200": 1
+    "200": 4
   },
-  "errors": {},
-  "retryErrors": {}
+  "errors": {
+    ":234:30": {
+      "missing error code": {
+        "Error": {
+          "page.$$eval: ReferenceError: page is not defined": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    ":234:30": {
+      "missing error code": {
+        "Error": {
+          "page.$$eval: ReferenceError: page is not defined": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
 }
