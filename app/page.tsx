@@ -40,7 +40,7 @@ export default function Home() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/scrape-playlist", {
+      const response = await fetch("https://youtube-playlist-anayser.vercel.app/api/scrape-playlist", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
